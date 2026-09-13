@@ -260,7 +260,7 @@ class GraphScene(QGraphicsScene):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Graph Editor - Step 5: Add Edges")
+        self.setWindowTitle("Drawer")
         self.resize(1000, 700)
 
         self.model = GraphModel()
